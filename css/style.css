@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Play', sans-serif;
+}
+header{
+    background-image: url(../img/back/back1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    padding-top: 30px;
+}
+.nav-a-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding-right: 45px;
+}
+.a-nav a:hover{
+    color: #C7A975;
+    transition-duration: 0.5s;
+}
+.big-slang-title{ 
+    padding-top: 369px;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+.big-form{
+    padding-top: 115px;
+    padding-bottom: 204px;
+    text-align: center;
+    opacity: 0.7;
+}
+.form{
+    min-width: 204px;
+    min-height: 50px;
+    border: none;
+    background-color: #ebcb95;
+    margin-left: 10px;
+}
+.form:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.form-button{
+    min-width: 204px;
+    min-height: 50px;
+    border: none;
+    background-color: #ebcb95;
+    margin-left: 10px;
+}
+.form-button:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+}
+.s-about{
+    background-color: black;
+}
+.big-photo-about{
+    display: flex;
+    padding-top: 80px;
+    color: white;
+    max-width: 650px;
+}
+.photo-about button{
+    min-width: 180px;
+    min-height: 40px;
+    color: white;
+    border: none;
+    background-color: #C7A975;
+    border-radius: 2.5px;
+}
+.photo-about button:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+    color: #C7A975;
+}
+.photo-about img{
+    margin-top: 120px;
+    max-width: 520px;
+    min-width: 520px;
+    max-height: 380px;
+    min-height: 380px;
+}
+.photo-about img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.photo-about-img{
+    max-width: 750px;
+    min-width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.photo-about-img img{   
+    min-width: 550px;
+    max-width: 5500px;
+    max-height: 250px;
+    padding-bottom: 50px;
+}
+.photo-about-img img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.hotel-img-left{
+    max-width: 550px;
+    align-self: flex-start;
+}
+.hotel-img-right{
+    max-width: 550px;
+    align-self: flex-end;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer img{
+    max-width: 16px;
+    max-height: 16px;
+}
+.footer span{
+    font-weight: 500;
+    color: black;
+}
+.footer h3{
+    font-size: 24px;
+    padding-top: 20px;
+    color: black;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.footer a:hover{
+    color: #977f55;
+    border-bottom: 2px solid #977f55;
+    transition-duration: 0.5s;
+    padding-bottom: 5px;
+}
+.text-footer{
+    text-align: center;
+    font-weight: 500;
+    padding-top: 40px;
+}
